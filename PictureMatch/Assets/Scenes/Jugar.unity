@@ -716,18 +716,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: ed93db1d22c3a1547a3c9f7a6ef0b2b9, type: 3}
-  - {fileID: 21300000, guid: dfecb8cd40562f640bd707df3d247b30, type: 3}
-  - {fileID: 21300000, guid: b5250331913ba464f8b23fe59fdd69c3, type: 3}
-  - {fileID: 21300000, guid: 354ead12a45e5bb41bc8d34264cfaf40, type: 3}
-  - {fileID: 21300000, guid: 650e433690e270348a882c3b295a57d0, type: 3}
-  - {fileID: 21300000, guid: 7abb54fab1d26ff43a14d95cd08e1c57, type: 3}
-  - {fileID: 21300000, guid: e082d8f50487e1945bb691e90f35d835, type: 3}
-  - {fileID: 21300000, guid: 75f31ff93457e6f409ebe4058c8a3996, type: 3}
-  - {fileID: 21300000, guid: c3f1cd860712e654f9cb933aeca7d2d1, type: 3}
-  - {fileID: 21300000, guid: d1068cf069d8e554dadb243079729006, type: 3}
-  - {fileID: 21300000, guid: 37d84ebaa572eb646aaf3a84d5523f19, type: 3}
-  - {fileID: 21300000, guid: 19e207fd00bc15d4e9f2671d7cf16814, type: 3}
+  - {fileID: 21300000, guid: 0faf6bd13c4e29440845ca3dc7b54fe7, type: 3}
+  - {fileID: 21300000, guid: cdad74305ba86ac43ba818024d4fdf9b, type: 3}
+  - {fileID: 21300000, guid: fe1eaffb49ea72243aed99da929601e8, type: 3}
+  - {fileID: 21300000, guid: 96e27ef95587e41419436d47ed8fea49, type: 3}
+  - {fileID: 21300000, guid: e79ac456ae9083544bf7fb0030fac295, type: 3}
+  - {fileID: 21300000, guid: a28d52dd4284041449f05e4840df5f03, type: 3}
+  - {fileID: 21300000, guid: 0dcb3afda3605804e96fb4df7608bf1d, type: 3}
+  - {fileID: 21300000, guid: e15e0675c184d584dad81cb89e782006, type: 3}
+  - {fileID: 21300000, guid: ce4b2f42a05856144bf7e84622932ab9, type: 3}
+  - {fileID: 21300000, guid: cc3f55e748756cd4c9e0840898e3f158, type: 3}
+  - {fileID: 21300000, guid: c7725d37079f3a144bbc706bb6aa970c, type: 3}
+  - {fileID: 21300000, guid: e921b88528312d840a87e4ade26f6081, type: 3}
 --- !u!114 &1193450647 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3295122545976916516, guid: 1616802fcc66f854f81fee74c2276feb, type: 3}
@@ -1427,7 +1427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1511755448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1979,18 +1979,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: ed93db1d22c3a1547a3c9f7a6ef0b2b9, type: 3}
-  - {fileID: 21300000, guid: dfecb8cd40562f640bd707df3d247b30, type: 3}
-  - {fileID: 21300000, guid: b5250331913ba464f8b23fe59fdd69c3, type: 3}
-  - {fileID: 21300000, guid: 354ead12a45e5bb41bc8d34264cfaf40, type: 3}
-  - {fileID: 21300000, guid: 650e433690e270348a882c3b295a57d0, type: 3}
-  - {fileID: 21300000, guid: 7abb54fab1d26ff43a14d95cd08e1c57, type: 3}
-  - {fileID: 21300000, guid: e082d8f50487e1945bb691e90f35d835, type: 3}
-  - {fileID: 21300000, guid: 75f31ff93457e6f409ebe4058c8a3996, type: 3}
-  - {fileID: 21300000, guid: c3f1cd860712e654f9cb933aeca7d2d1, type: 3}
-  - {fileID: 21300000, guid: d1068cf069d8e554dadb243079729006, type: 3}
-  - {fileID: 21300000, guid: 37d84ebaa572eb646aaf3a84d5523f19, type: 3}
-  - {fileID: 21300000, guid: 19e207fd00bc15d4e9f2671d7cf16814, type: 3}
+  - {fileID: 21300000, guid: 0faf6bd13c4e29440845ca3dc7b54fe7, type: 3}
+  - {fileID: 21300000, guid: cdad74305ba86ac43ba818024d4fdf9b, type: 3}
+  - {fileID: 21300000, guid: fe1eaffb49ea72243aed99da929601e8, type: 3}
+  - {fileID: 21300000, guid: 96e27ef95587e41419436d47ed8fea49, type: 3}
+  - {fileID: 21300000, guid: e79ac456ae9083544bf7fb0030fac295, type: 3}
+  - {fileID: 21300000, guid: a28d52dd4284041449f05e4840df5f03, type: 3}
+  - {fileID: 21300000, guid: 0dcb3afda3605804e96fb4df7608bf1d, type: 3}
+  - {fileID: 21300000, guid: e15e0675c184d584dad81cb89e782006, type: 3}
+  - {fileID: 21300000, guid: ce4b2f42a05856144bf7e84622932ab9, type: 3}
+  - {fileID: 21300000, guid: cc3f55e748756cd4c9e0840898e3f158, type: 3}
+  - {fileID: 21300000, guid: c7725d37079f3a144bbc706bb6aa970c, type: 3}
+  - {fileID: 21300000, guid: e921b88528312d840a87e4ade26f6081, type: 3}
 --- !u!114 &1757381033 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3295122545976916516, guid: 1616802fcc66f854f81fee74c2276feb, type: 3}
@@ -2351,18 +2351,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: ed93db1d22c3a1547a3c9f7a6ef0b2b9, type: 3}
-  - {fileID: 21300000, guid: dfecb8cd40562f640bd707df3d247b30, type: 3}
-  - {fileID: 21300000, guid: b5250331913ba464f8b23fe59fdd69c3, type: 3}
-  - {fileID: 21300000, guid: 354ead12a45e5bb41bc8d34264cfaf40, type: 3}
-  - {fileID: 21300000, guid: 650e433690e270348a882c3b295a57d0, type: 3}
-  - {fileID: 21300000, guid: 7abb54fab1d26ff43a14d95cd08e1c57, type: 3}
-  - {fileID: 21300000, guid: e082d8f50487e1945bb691e90f35d835, type: 3}
-  - {fileID: 21300000, guid: 75f31ff93457e6f409ebe4058c8a3996, type: 3}
-  - {fileID: 21300000, guid: c3f1cd860712e654f9cb933aeca7d2d1, type: 3}
-  - {fileID: 21300000, guid: d1068cf069d8e554dadb243079729006, type: 3}
-  - {fileID: 21300000, guid: 37d84ebaa572eb646aaf3a84d5523f19, type: 3}
-  - {fileID: 21300000, guid: 19e207fd00bc15d4e9f2671d7cf16814, type: 3}
+  - {fileID: 21300000, guid: 0faf6bd13c4e29440845ca3dc7b54fe7, type: 3}
+  - {fileID: 21300000, guid: cdad74305ba86ac43ba818024d4fdf9b, type: 3}
+  - {fileID: 21300000, guid: fe1eaffb49ea72243aed99da929601e8, type: 3}
+  - {fileID: 21300000, guid: 96e27ef95587e41419436d47ed8fea49, type: 3}
+  - {fileID: 21300000, guid: e79ac456ae9083544bf7fb0030fac295, type: 3}
+  - {fileID: 21300000, guid: a28d52dd4284041449f05e4840df5f03, type: 3}
+  - {fileID: 21300000, guid: 0dcb3afda3605804e96fb4df7608bf1d, type: 3}
+  - {fileID: 21300000, guid: e15e0675c184d584dad81cb89e782006, type: 3}
+  - {fileID: 21300000, guid: ce4b2f42a05856144bf7e84622932ab9, type: 3}
+  - {fileID: 21300000, guid: cc3f55e748756cd4c9e0840898e3f158, type: 3}
+  - {fileID: 21300000, guid: c7725d37079f3a144bbc706bb6aa970c, type: 3}
+  - {fileID: 21300000, guid: e921b88528312d840a87e4ade26f6081, type: 3}
 --- !u!224 &1847741156 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8410666847583021619, guid: 77c4e394a28555f47aece05651e2dfbd, type: 3}
@@ -2779,7 +2779,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 42013533466090958, guid: d6435748d37540248bd21e0a7bd2cd4d, type: 3}
       propertyPath: m_Name
-      value: ControladorGenerar
+      value: ControladorComida
       objectReference: {fileID: 0}
     - target: {fileID: 770635800875240088, guid: d6435748d37540248bd21e0a7bd2cd4d, type: 3}
       propertyPath: Foto1

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6358835188514786959
+--- !u!1 &7246445540504539954
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 300220081938111883}
-  - component: {fileID: 5383101724839225424}
-  - component: {fileID: 2480147007701889299}
-  - component: {fileID: 2383171114673264155}
+  - component: {fileID: 3437707557429672317}
+  - component: {fileID: 3092756839768510105}
+  - component: {fileID: 3295122545976916516}
   m_Layer: 5
   m_Name: Foto
   m_TagString: Untagged
@@ -19,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &300220081938111883
+--- !u!224 &3437707557429672317
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358835188514786959}
+  m_GameObject: {fileID: 7246445540504539954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -38,21 +37,21 @@ RectTransform:
   m_AnchoredPosition: {x: -386, y: -143}
   m_SizeDelta: {x: 175.3203, y: 222.3955}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &5383101724839225424
+--- !u!222 &3092756839768510105
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358835188514786959}
+  m_GameObject: {fileID: 7246445540504539954}
   m_CullTransparentMesh: 1
---- !u!114 &2480147007701889299
+--- !u!114 &3295122545976916516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358835188514786959}
+  m_GameObject: {fileID: 7246445540504539954}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -76,16 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2383171114673264155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358835188514786959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be936807337fc524e85faa9465f6d571, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites: []
