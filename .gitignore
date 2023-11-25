@@ -9,7 +9,14 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-/PictureMatch/Temp/
+
+/PictureMatch/[Ll]ibrary/
+/PictureMatch/[Tt]emp/
+/PictureMatch/[Oo]bj/
+/PictureMatch/[Bb]uild/
+/PictureMatch/[Bb]uilds/
+/PictureMatch/[Ll]ogs/
+/PictureMatch/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
