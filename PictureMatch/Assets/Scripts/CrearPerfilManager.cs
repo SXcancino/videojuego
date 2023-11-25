@@ -15,7 +15,7 @@ public class CrearPerfilManager : MonoBehaviour
 
     private void Start(){
         if(id != null && nombre != null){
-            submit.onClick.AddListener(verRegistros);
+            submit.onClick.AddListener(registrar);
         }
         else{
             print("Alguno de tus componentes es nulo");

@@ -37,7 +37,24 @@ public class DatabaseManager
             db.Close();
         }
     }
+    public void eliminarNiño(string id){
+        using (var db = new SqliteConnection(this.dbName))
+        {
+            db.Open();
+            using (var query = db.CreateCommand())
+            {
+                query.CommandText = "DELETE FROM niños where id=@id";
 
+                IDbDataParameter paramNombre = query.CreateParameter();
+                paramNombre.ParameterName = "@id";
+                paramNombre.Value = id;
+                query.Parameters.Add(paramNombre);
+
+                query.ExecuteNonQuery();
+            }
+            db.Close();
+        }
+    }
     public List<KeyValuePair<string, string>> getNiños()
     {
        List<KeyValuePair<string, string>> res = new List<KeyValuePair<string, string>>();
@@ -63,9 +80,6 @@ public class DatabaseManager
             }
             db.Close();
         }
-
         return res;
     }
-
-
 }
