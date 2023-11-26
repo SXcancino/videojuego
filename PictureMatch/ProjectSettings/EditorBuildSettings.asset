@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Configuracion.unity
     guid: e12d743426044034d8013b63c2a51d2e
+  - enabled: 1
+    path: Assets/Scenes/SelectPerfil.unity
+    guid: 729afb66d343dac4b8fc1933b46ccd4f
+  - enabled: 1
+    path: Assets/Scenes/CrearPerfil.unity
+    guid: 7c9655a67491b284e8565f0b88cb1dac
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: c350627e313cddc4dbddf7380d48b38e, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 296c82b15f000d744b93e1740a991d06, type: 2}

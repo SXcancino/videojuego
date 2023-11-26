@@ -7,7 +7,7 @@ public class MenuInicial : MonoBehaviour
 {
     
     public void Jugar(){
-        SceneManager.LoadScene("Jugar");
+        SceneManager.LoadScene("SelectPerfil");
     }
 
     public void Estadisticas(){

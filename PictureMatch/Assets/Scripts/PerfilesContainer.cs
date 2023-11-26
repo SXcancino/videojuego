@@ -15,6 +15,9 @@ public class PerfilesContainer : MonoBehaviour
     {
         try{
             List<KeyValuePair<string, string>> res = this.DB.getNiños();
+
+            contenedor = GetComponent<ScrollRect>().content;
+            
         foreach( var perfiles in res){
             //Aqui el nombre que le dimos en el archivo
             var go = Instantiate(this.caja);
@@ -35,7 +38,13 @@ public class PerfilesContainer : MonoBehaviour
             });
 
             box.delete.onClick.AddListener(() => {
-                // DB.eliminarNiño(idNiño);
+                try{
+                    DB.eliminarNiño(idNiño);
+                    print("Niño eliminado correctamente");
+                    Destroy(go);
+                }catch(Exception ex){
+                    print("Error al eliminar");
+                }
             });
 
 

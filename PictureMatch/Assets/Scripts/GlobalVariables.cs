@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class GlobalVariables : MonoBehaviour
 {
-    public static string id;
-    public static string nombre;
+    public static string id = "null";
+    public static string nombre = "null";
 }

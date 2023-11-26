@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using System;
 using Mono.Data.Sqlite;
+using UnityEngine.SceneManagement;
 
 public class CrearPerfilManager : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class CrearPerfilManager : MonoBehaviour
     public TMP_InputField id; 
     public TMP_InputField nombre;
     public Button submit;
+    public Button atras;
 
     private void Start(){
+
+        atras.onClick.AddListener(regresar);
+
         if(id != null && nombre != null){
             submit.onClick.AddListener(registrar);
         }
@@ -49,5 +54,9 @@ public class CrearPerfilManager : MonoBehaviour
         {
             Debug.Log($"Clave: {registro.Key}, Valor: {registro.Value}");
         }
+    }
+
+    public void regresar(){
+        SceneManager.LoadScene("SelectPerfil");
     }
 }
