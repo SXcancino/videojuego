@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrearPerfil.unity
     guid: 7c9655a67491b284e8565f0b88cb1dac
+  - enabled: 1
+    path: Assets/Scenes/SelectNivel.unity
+    guid: c4d6122e08036584987fe5802e74be0d
+  - enabled: 1
+    path: Assets/Scenes/ComidaN1.unity
+    guid: d26289ec9c7c2244a91aa3c2fa498341
+  - enabled: 1
+    path: Assets/Scenes/ComidaN2.unity
+    guid: af901a4eb67f13842bdfb7ecbdc12320
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: c350627e313cddc4dbddf7380d48b38e, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 296c82b15f000d744b93e1740a991d06, type: 2}

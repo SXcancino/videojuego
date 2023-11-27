@@ -39,6 +39,7 @@ public class CrearPerfilManager : MonoBehaviour
         try{
             this.DB.addNiño(id, nombre);
             print("Niño agregado correctamente");
+            SceneManager.LoadScene("SelectPerfil");
         }catch(SqliteException e){
             print("No se pueden repetir los ID");
             this.id.text = "";

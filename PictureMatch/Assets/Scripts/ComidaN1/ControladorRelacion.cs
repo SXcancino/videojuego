@@ -9,12 +9,15 @@ using UnityEngine.UIElements;
 public class ControladorRelacion : MonoBehaviour
 {
 
-    public GameObject Pictograma, Foto1, Foto2, Foto3, estrellas;
+    public GameObject Pictograma, Foto1, Foto2, Foto3, estrellas, panelContinuar, panelTerminar;
     public ControladorComida controladorComida;
-    int puntos = 0;
+    public AudioClip sndEstrellitas, sndOhoh;
+    public AudioClip[] sndComida;
+    public int puntos = 0;
+    public int errores = 0;
 
 
-    private void Start() {
+    void Start() {
         estrellas.GetComponent<TextMeshProUGUI>().text = puntos.ToString("0");
     }
     
@@ -22,11 +25,15 @@ public class ControladorRelacion : MonoBehaviour
         if (controladorComida.NumFoto1 == controladorComida.NumPictograma){
             puntos += 1;
             estrellas.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
+            panelContinuar.SetActive(true);
+            ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndEstrellitas);
             controladorComida.NuevoJuego();
             Foto2.GetComponent<UnityEngine.UI.Button>().interactable = true;
             Foto3.GetComponent<UnityEngine.UI.Button>().interactable = true;
         } else{
+            ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndOhoh);
             Foto1.GetComponent<UnityEngine.UI.Button>().interactable = false;
+            errores += 1;
         }
     }
 
@@ -34,11 +41,15 @@ public class ControladorRelacion : MonoBehaviour
         if (controladorComida.NumFoto2 == controladorComida.NumPictograma){
             puntos += 1;
             estrellas.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
+            panelContinuar.SetActive(true);
+            ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndEstrellitas);
             controladorComida.NuevoJuego();
             Foto1.GetComponent<UnityEngine.UI.Button>().interactable = true;
             Foto3.GetComponent<UnityEngine.UI.Button>().interactable = true;
         } else{
+            ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndOhoh);
             Foto2.GetComponent<UnityEngine.UI.Button>().interactable = false;
+            errores += 1;
         }
     }
 
@@ -46,12 +57,20 @@ public class ControladorRelacion : MonoBehaviour
         if (controladorComida.NumFoto3 == controladorComida.NumPictograma){
             puntos += 1;
             estrellas.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
+            panelContinuar.SetActive(true);
+            ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndEstrellitas);
             controladorComida.NuevoJuego();
             Foto1.GetComponent<UnityEngine.UI.Button>().interactable = true;
             Foto2.GetComponent<UnityEngine.UI.Button>().interactable = true;
         } else{
+            ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndOhoh);
             Foto3.GetComponent<UnityEngine.UI.Button>().interactable = false;
+            errores += 1;
         }
+    }
+
+    public void BtnSonido(){
+        ControladorSonidos.InstanceCSonidos.EjecutarSonido(sndComida[controladorComida.NumPictograma]);
     }
 
 }

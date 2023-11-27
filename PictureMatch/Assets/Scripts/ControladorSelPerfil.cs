@@ -26,7 +26,7 @@ public class botonTest : MonoBehaviour
             print("No se puede jugar sin un perfil seleccionado");
         }
         else{
-            SceneManager.LoadScene("Jugar");
+            SceneManager.LoadScene("SelectNivel");
         }
         
     }

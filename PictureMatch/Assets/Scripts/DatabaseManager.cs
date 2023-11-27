@@ -82,4 +82,60 @@ public class DatabaseManager
         }
         return res;
     }
+
+
+    public void guardarSesion(string niño, string tipo_partida, int exitosos, int fallidos, int intentos, int segundos, int dificultad){
+        using (var db = new SqliteConnection(this.dbName)){
+            db.Open();
+
+            using (var query = db.CreateCommand())
+            {
+                query.CommandText = "insert into sesiones" +
+                "(id_niño, tipo_partida, intentos_exitosos, intentos_fallidos, intentos, tiempo_jugado,dificultad)" +
+                "values (@id,@tipo,@exitosos,@fallidos,@intentos,@segundos,@dificultad)";
+
+                IDbDataParameter paramId = query.CreateParameter();
+                paramId.ParameterName = "@id";
+                paramId.Value = niño;
+                query.Parameters.Add(paramId);
+
+                IDbDataParameter paramTipo = query.CreateParameter();
+                paramTipo.ParameterName = "@tipo";
+                paramTipo.Value = tipo_partida;
+                query.Parameters.Add(paramTipo);
+
+                IDbDataParameter paramExitoso = query.CreateParameter();
+                paramExitoso.ParameterName = "@exitosos";
+                paramExitoso.Value = exitosos;
+                query.Parameters.Add(paramExitoso);
+                
+                IDbDataParameter paramFallido = query.CreateParameter();
+                paramFallido.ParameterName = "@fallidos";
+                paramFallido.Value = fallidos;
+                query.Parameters.Add(paramFallido);
+
+                IDbDataParameter paramIntentos = query.CreateParameter();
+                paramIntentos.ParameterName = "@intentos";
+                paramIntentos.Value = intentos;
+                query.Parameters.Add(paramIntentos);
+
+                IDbDataParameter paramTiempo = query.CreateParameter();
+                paramTiempo.ParameterName = "@segundos";
+                paramTiempo.Value = segundos;
+                query.Parameters.Add(paramTiempo);
+
+                IDbDataParameter paramDif = query.CreateParameter();
+                paramDif.ParameterName = "@dificultad";
+                paramDif.Value = dificultad;
+                query.Parameters.Add(paramDif);
+
+                query.ExecuteNonQuery();
+            }
+            db.Close();
+        }
+    }
+
+    public void getSesiones(string n){
+
+    }
 }
